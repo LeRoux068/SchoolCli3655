@@ -1,0 +1,18 @@
+&lt;Project Sdk="Microsoft.NET.Sdk.WindowsDesktop"&gt;
+
+  &lt;PropertyGroup&gt;
+    &lt;OutputType&gt;WinExe&lt;/OutputType&gt;
+    &lt;TargetFramework&gt;net6.0-windows&lt;/TargetFramework&gt;
+    &lt;UseWindowsForms&gt;true&lt;/UseWindowsForms&gt;
+    &lt;UseAutomaticUI&gt;true&lt;/UseAutomaticUI&gt;
+    &lt;RootNamespace&gt;SchoolCli3655&lt;/RootNamespace&gt;
+    &lt;StartupObject&gt;SchoolCli3655.Program&lt;/StartupObject&gt;
+    &lt;ApplicationIcon&gt;&lt;/ApplicationIcon&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;PackageReference Include="System.Data.SQLite" Version="1.0.118" /&gt;
+    &lt;PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" /&gt;
+  &lt;/ItemGroup&gt;
+
+&lt;/Project&gt;
